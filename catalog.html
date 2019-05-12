@@ -21,8 +21,94 @@
             </ul>
         </nav>
         <h1 class="visually-hidden">Дизайн-студия Nёrds</h1>
+        <h2>Магазин готовых шаблонов</h2>
     </header>
     <main>
+        <section class="filters">
+            <h3 class="visually-hidden">Фильтры</h3>
+            <!--Форма с выбором цены -->
+            <form class="filters-form">
+                <fieldset class="grid-field">
+                    <legend class="filter-title">Сетка</legend>
+                    <input type="radio" name="grid" id="adapting" value="Адаптивная" checked>
+                    <label for="adapting">Адаптивная</label>
+                    <input type="radio" name="grid" id="fixed" value="Фиксированная">
+                    <label for="fixed">Фиксированная</label>
+                    <input type="radio" name="grid" id="flexible" value="Резиновая">
+                    <label for="flexible">Резиновая</label>
+                </fieldset>
+                <fieldset class="features-field">
+                    <legend class="filter-title">Особенности</legend>
+                    <input type="checkbox" id="slider" value="Слайдер" checked>
+                    <label for="slider">Слайдер</label>
+                    <input type="checkbox" id="advantages-block" value="Блок преимуществ">
+                    <label for="advantages-block">Блок преимуществ</label>
+                    <input type="checkbox" id="news" value="Новости" checked>
+                    <label for="news">Новости</label>
+                    <input type="checkbox" id="gallery" value="Галерея">
+                    <label for="gallery">Галерея</label>
+                    <input type="checkbox" id="cart" value="Корзина">
+                    <label for="cart">Корзина</label>
+                </fieldset>
+                <input type="submit" value="Показать">
+            </form>
+        </section>
+        <section>
+            <!--Форма с сортировкой -->
+            <h3 class="visually-hidden">Каталог шаблонов</h3>
+            <ul class="templates-list">
+                <li class="template-item">
+                    <img src="../img/sedona.png" width="360px" height="576px" alt="Седона">
+                    <h4 class="template-title">Sedona</h4>
+                    <p class="template-description">Информационный сайт для туристов</p>
+                    <a class="button" href="#">9 900 руб.</a>
+                </li>
+                <li class="template-item">
+                    <img src="../img/pink-app.png" width="360px" height="576px" alt="Приложение Pink">
+                    <h4 class="template-title">Pink App</h4>
+                    <p class="template-description">Продуктовый лендинг приложения для iOS и Android</p>
+                    <a class="button" href="#">9 900 руб.</a>
+                </li>
+                <li class="template-item">
+                    <img src="../img/barbershop.png" width="360px" height="576px" alt="Барбершоп Бородинский">
+                    <h4 class="template-title">Barbershop</h4>
+                    <p class="template-description">Сайт салона красоты. Для мужчин, да.</p>
+                    <a class="button" href="#">9 900 руб.</a>
+                </li>
+                <li class="template-item">
+                    <img src="../img/mishka.png" width="360px" height="576px" alt="Интернет-магазин Мишка">
+                    <h4 class="template-title">MISHKA</h4>
+                    <p class="template-description">Интернет-магазин вязаных игрушек</p>
+                    <a class="button" href="#">9 900 руб.</a>
+                </li>
+                <li class="template-item">
+                    <img src="../img/plus.png" width="360px" height="576px" alt="Курсы повышения квалификации A Plus">
+                    <h4 class="template-title">A Plus</h4>
+                    <p class="template-description">Лендинг курсов повышения квалификации</p>
+                    <a class="button" href="#">9 900 руб.</a>
+                </li>
+                <li class="template-item">
+                    <img src="../img/kvast.png" width="360px" height="576px" alt="Крафтовый квас Кваст">
+                    <h4 class="template-title">КВАСТ</h4>
+                    <p class="template-description">Промо-сайт производителя крафтового кваса</p>
+                    <a class="button" href="#">9 900 руб.</a>
+                </li>
+            </ul>
+            <ul class="pagination">
+                <li class="pagination-item pagination-current">
+                    <a>1</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="#">2</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="#">3</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="#">Следующая</a>
+                </li>
+            </ul>
+        </section>
         <section>
             <h2 class="visually-hidden">Как добраться</h2>
             <div class="contacts">
