@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
   <header>
@@ -74,18 +76,30 @@
     <section>
       <h2 class="visually-hidden">Промо</h2>
       <p class="promo-lead">Мы — маленькая, но гордая дизайн-студия из Краснодара. </p>
-      <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. 
+      <p class="promo-description">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. 
         Работаем не покладая рук, как роботы.</p>
-        <ul class="promo-list">
-          <li class="promo-item">Веб-сайтов любой сложности</li>
-          <li class="promo-item">Мобильных приложений для iOS и Android</li>
-          <li class="promo-item">Слайдшоу и видео для корпоративных презентаций</li>
-        </ul>
-        <p>с 2004 года Любим точность во всем:</p>
+        <div>
+          <p class="promo-list-title">Выполняем заказы на разработку:</p>
+          <ul class="promo-list">
+            <li class="promo-item">Веб-сайтов любой сложности</li>
+            <li class="promo-item">Мобильных приложений для iOS и Android</li>
+            <li class="promo-item">Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+        <p class="promo-list-title">с 2004 года Любим точность во всем:</p>
         <ul class="statistics-list">
-          <li class="statistics-item">146% Уровень самоотдачи</li>
-          <li class="statistics-item">100% Соблюдение сроков</li>
-          <li class="statistics-item">50% минимальная предоплата</li>
+          <li class="statistics-item">
+            <span class="statistics-number">146<sup>%</sup></span>
+            <p>Уровень самоотдачи</p>
+          </li>
+          <li class="statistics-item">
+            <span class="statistics-number">100<sup>%</sup></span>
+            <p>Соблюдение сроков</p>
+          </li>
+          <li class="statistics-item">
+            <span class="statistics-number">50<sup>%</sup></span>
+            <p>Минимальная предоплата</p>
+          </li>
         </ul>
       </section>
       <section class="partners">
@@ -98,7 +112,7 @@
           </li>
           <li class="partners-item">
             <a href="#">
-              <img src="img/logo-barbershop.png" width="20" height="90" alt="Логотип барбершопа Бородинский">
+              <img src="img/logo-barbershop.png" width="209" height="90" alt="Логотип барбершопа Бородинский">
             </a>
           </li>
           <li class="partners-item">
@@ -141,19 +155,19 @@
       </div>
     </footer>
     <section class="modal modal-feedback">
-      <h2>Напишите нам</h2>
+      <h2 class="modal-title">Напишите нам</h2>
       <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
         <p class="feedback-item">
           <label for="feedback-name">Ваше имя:</label>
-          <input id="feedback-name" type="text" name="name" value="" placeholder="">
+          <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
         </p>
         <p class="feedback-item">
           <label for="feedback-email">Ваш e-mail:</label>
-          <input id="feedback-email" type="text" name="email" value="" placeholder="email@example.com">
+          <input id="feedback-email" type="text" name="email" placeholder="email@example.com">
         </p>
         <p class="feedback-item">
           <label for="feedback-text">Текст письма:</label>
-          <input id="feedback-text" type="text" name="text" value="" placeholder="В свободной форме">
+          <input id="feedback-text" type="text" name="text" placeholder="В свободной форме">
         </p>
         <button class="button" type="submit">Отправить</button>
       </form>

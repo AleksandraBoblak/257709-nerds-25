@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.button {
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.header-navigation {
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.user-navigation {
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.slider-slogan {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+}
+
+.services-item-title {
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.promo-lead {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.promo-list-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.statistics-number {
+    font-size: 45px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.statistics-item p {
+    line-height: 18px;
+}
+
+.contacts {
+    line-height: 18px;
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts-title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-slogan {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.footer-slogan-description {
+    line-height: 22px;
+}
+
+.modal-title {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.feedback-item {
+    line-height: 18px;
+}
+
+.feedback-item input::placeholder {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.inner-page {
+    line-height: 18px;
+}
+
+.catalog-title {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: bold;
+}
+
+.filter-title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-controls {
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.price-controls input::placeholder {
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.filter-option {
+    line-height: 20px;
+}
+
+.sort-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sort-item {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.template-title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pagination {
+    text-transform: uppercase;
+}
+
