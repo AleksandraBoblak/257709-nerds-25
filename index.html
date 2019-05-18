@@ -7,9 +7,9 @@
 <body>
   <header>
     <nav>
-        <a class="logo">
-            <img src="../img/nerds.svg" width="160px" height="65px" alt="Логотип студии Нёрдс">Nёrds
-        </a>
+      <a class="logo">
+        <img src="img\nerds-logo.svg" width="160" height="65" alt="Логотип студии Нёрдс">Nёrds
+      </a>
       <ul class="header-navigation">
         <li><a href="studio.html">Студия</a></li>
         <li><a href="clients.html">Клиенты</a></li>
@@ -46,24 +46,24 @@
       </ul>
     </section>
   </header>
-  <main>
+  <main class="container">
     <section class="services">
       <h2 class="visually-hidden">Услуги</h2>
       <ul class="services-list">
         <li class="services-item">
-          <img src="../img/services-item-sites.png" width="300px" height="146px" alt="Веб-сайты">
+          <img src="img\web-sites.png" width="300" height="146" alt="Веб-сайты">
           <h3 class="services-item-title">Веб-сайты</h3>
           <p class="services-item-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
           <a class="button">Заказать</a>
         </li>
         <li class="services-item">
-          <img src="../img/services-item-apps.png" width="300px" height="146px" alt="Приложения">
+          <img src="img\apps.png" width="300" height="146" alt="Приложения">
           <h3 class="services-item-title">Приложения</h3>
           <p class="services-item-description">Покорите топ-10 приложений в AppStore и Google Play</p>
           <a class="button">Заказать</a>
         </li>
         <li class="services-item">
-          <img src="../img/services-item-presentations.png" width="300px" height="146px" alt="Презентации">
+          <img src="img\presentations.png" width="300" height="146" alt="Презентации">
           <h3 class="services-item-title">Презентации</h3>
           <p class="services-item-description">Вы даже не подозреваете,  насколько вы изумительны!</p>
           <a class="button">Заказать</a>
@@ -92,22 +92,22 @@
         <ul class="partners-list">
           <li class="partners-item">
             <a href="https://htmlacademy.ru/intensive/htmlcss">
-              <img src="../img/logo-academy.png" width="199px" height="68px" alt="Логотип HTML-Academy">
+              <img src="img\logo-html.png" width="199" height="68" alt="Логотип HTML-Academy">
             </a>
           </li>
           <li class="partners-item">
             <a href="#">
-              <img src="../img/logo-barbershop.png" width="209px" height="90px" alt="Логотип барбершопа Бородинский">
+              <img src="img\logo-barbershop.png" width="20" height="90" alt="Логотип барбершопа Бородинский">
             </a>
           </li>
           <li class="partners-item">
             <a href="#">
-              <img src="../img/logo-pink.png" width="185px" height="52px" alt="Логотип Pink">
+              <img src="img\logo-pink.png" width="185" height="52" alt="Логотип Pink">
             </a>
           </li>
           <li class="partners-item">
             <a href="#">
-              <img src="../img/logo-mishka.png" width="173px" height="84px" alt="Логотип Mishka">
+              <img src="img\logo-mishka.png" width="173" height="84" alt="Логотип Mishka">
             </a>
           </li>
         </ul>
@@ -116,26 +116,48 @@
         <h2 class="visually-hidden">Как добраться</h2>
         <div class="contacts">
           <p class=""contacts-title>NЁRDS DESIGN STUDIO</p>
-          <address>191186, Санкт-Петербург, 
-            ул. Б. Конюшенная, д. 19/8</address>
-            <a href="tel:+7(812)275-75-75">тел. +7 (812) 275-75-75</a>
-            <a class="button">Напишите нам</a>
-          </div>
-        </section>
-      </main>
-      <footer class="main-footer">
-        <div class="social-buttons">
-          <ul class="social-buttons-list">
-            <li class="social-buttons-item social-vk"><a href="#">Вконтакте</a></li>
-            <li class="social-buttons-item social-fb"><a href="#">Фейсбук</a></li>
-            <li class="social-buttons-item social-ig"><a href="#">Инстаграм</a></li>
-          </ul>
+          <address>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+          </address>
+          <a href="tel:+7(812)275-75-75">тел. +7 (812) 275-75-75</a>
+          <a class="button">Напишите нам</a>
         </div>
-        <div>
-          <p class="footer-slogan">Давайте дружить, это выгодно!</p>
-          <p class="footer-slogan-description">Скидка 10% для друзей из социальных сетей.</p>
-        </div>
-      </footer>
-    </body>
-    </html>
-    
+        <p>
+          <img src="img/map.jpg" width="1440" height="416" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+        </p>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="social-buttons">
+        <ul class="social-buttons-list">
+          <li><a class="social-buttons-item social-vk" href="#">Вконтакте</a></li>
+          <li><a class="social-buttons-item social-fb" href="#">Фейсбук</a></li>
+          <li><a class="social-buttons-item social-ig" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-slogan">Давайте дружить, это выгодно!</p>
+        <p class="footer-slogan-description">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </footer>
+    <section class="modal modal-feedback">
+      <h2>Напишите нам</h2>
+      <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+        <p class="feedback-item">
+          <label for="feedback-name">Ваше имя:</label>
+          <input id="feedback-name" type="text" name="name" value="" placeholder="">
+        </p>
+        <p class="feedback-item">
+          <label for="feedback-email">Ваш e-mail:</label>
+          <input id="feedback-email" type="text" name="email" value="" placeholder="email@example.com">
+        </p>
+        <p class="feedback-item">
+          <label for="feedback-text">Текст письма:</label>
+          <input id="feedback-text" type="text" name="text" value="" placeholder="В свободной форме">
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
+  </body>
+  </html>
+  
