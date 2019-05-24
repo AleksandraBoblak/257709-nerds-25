@@ -1,22 +1,78 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .button {
+    display: block;
     line-height: 18px;
     text-transform: uppercase;
+    color: #ffffff;
+    
+    min-height: 50px;
+    max-width: 240px;
+    background-color: #fb565a;
+    text-align: center;
+}
+
+.filter-button {
+    color: #000000;
+    background-color: #eeeeee;
+    border: none;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: #dfdfdf;
+}
+
+.filter-button:active {
+    opacity: 0.3;
+    background-color: #d5d5d5;
+    border-top: 3px solid #bfbfbf;
 }
 
 .header-navigation {
     line-height: 30px;
     text-transform: uppercase;
+    
+    list-style: none;
+}
+
+.header-navigation a,
+.user-navigation a {
+    color: black;
+}
+
+.header-navigation a:hover,
+.header-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+    color: #fb565a;
+}
+
+.header-navigation a:active,
+.user-navigation a:active {
+    color: black;
+    opacity: 0.3;
 }
 
 .user-navigation {
     line-height: 30px;
     text-transform: uppercase;
+    list-style: none;
+}
+
+.sliders-list {
+    list-style: none;
 }
 
 .slider-slogan {
@@ -25,10 +81,35 @@ body {
     font-weight: 500;
 }
 
+.slider-1 {
+    background-image: url("../img/slide1.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 618px 413px;
+}
+
+.slider-2 {
+    background-image: url("../img/slide2.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 663px 430px;
+}
+
+.slider-3 {
+    background-image: url("../img/slide3.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 759px 411px;
+}
+
+.services-list {
+    list-style: none;
+}
+
 .services-item-title {
     font-size: 24px;
     line-height: 30px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .promo-lead {
@@ -37,7 +118,7 @@ body {
     font-weight: 500;
 }
 
-.promo-list-title {
+.promo-table-title {
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -48,8 +129,12 @@ body {
     font-weight: bold;
 }
 
-.statistics-item p {
+.statistics-row td {
     line-height: 18px;
+}
+
+.partners-list {
+    list-style: none;
 }
 
 .contacts {
@@ -58,6 +143,10 @@ body {
 
 address {
     font-style: normal;
+}
+
+.social-buttons-list {
+    list-style: none;
 }
 
 .contacts-title {
@@ -102,13 +191,6 @@ address {
     font-weight: bold;
 }
 
-.filter-title {
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 .price-controls {
     line-height: 22px;
     text-transform: uppercase;
@@ -119,6 +201,31 @@ address {
     text-transform: uppercase;
 }
 
+.grid-field,
+.features-field {
+    border: none;
+}
+
+.grid-list,
+.features-list {
+    list-style: none;
+}
+
+.filter-title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.filter-input + label {
+    color: #283136;
+}
+
+.filter-input:disabled + label {
+  opacity: 0.3;
+}
+
 .filter-option {
     line-height: 20px;
 }
@@ -127,6 +234,31 @@ address {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.sort-list {
+    list-style: none;
+}
+
+.sort-item {
+    color: #000000;
+}
+
+.sort-item:not(.sort-current) {
+    opacity: 0.3;
+}
+
+.sort-item a:hover,
+.sort-item a:focus {
+    opacity: 0.5;
+}
+
+.sort-direction-list {
+    list-style: none;
+}
+
+.templates-list {
+    list-style: none;
 }
 
 .sort-item {
@@ -141,7 +273,30 @@ address {
     text-transform: uppercase;
 }
 
-.pagination {
+.pagination-list {
     text-transform: uppercase;
+    list-style: none;
+}
+
+.pagination-item a {
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+.pagination-item-current a {
+    background-color: #ffffff;
+    border: 3px solid #dbdbdb;
+    border-radius: 2px;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus {
+    background-color: #dfdfdf;
+}
+
+.pagination-item a:active {
+    opacity: 0.3;
+    background-color: #d5d5d5;
+    border-top: 3px solid #bfbfbf;
 }
 

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -38,7 +39,7 @@
       <form class="filters-form">
         <fieldset class="grid-field">
           <legend class="filter-title">Сетка</legend>
-          <ul>
+          <ul class="grid-list">
             <li class="filter-option">
               <input class="visually-hidden filter-input filter-input-radio" 
               type="radio" name="grid" id="adapting" checked>
@@ -46,19 +47,19 @@
             </li>
             <li class="filter-option">
               <input class="visually-hidden filter-input filter-input-radio" 
-              type="radio" name="grid" id="fixed" checked>
+              type="radio" name="grid" id="fixed">
               <label for="fixed">Фиксированная</label>
             </li>
             <li class="filter-option">
               <input class="visually-hidden filter-input filter-input-radio" 
-              type="radio" name="grid" id="flexible" checked>
+              type="radio" name="grid" id="flexible">
               <label for="flexible">Резиновая</label>
             </li>
           </ul>
         </fieldset>
         <fieldset class="features-field">
           <legend class="filter-title">Особенности</legend>
-          <ul>
+          <ul class="features-list">
             <li class="filter-option">
               <input class="visually-hidden filter-input filter-input-checkbox"
               type="checkbox" name="slider" id="filter-slider" checked>
@@ -92,7 +93,7 @@
       </form>
     </section>
     <section class="catalog">
-      <h2 class="sort-title">Сортировка</h2>
+      <h2 class="sort-title">Сортировать:</h2>
       <ul class="sort-list">
         <li class="sort-item sort-current">
           <a class="sort-item" href="#">По цене</a>
@@ -167,7 +168,7 @@
           <a class="button" href="#">9 900 руб.</a>
         </li>
       </ul>
-      <ul class="pagination">
+      <ul class="pagination-list">
         <li class="pagination-item pagination-item-current">
           <a>1</a>
         </li>
